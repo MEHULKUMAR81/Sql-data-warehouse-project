@@ -114,23 +114,6 @@ SET
     gen   = NULLIF(TRIM(@gen), '');
 
 
-/* ============================================================
-   NOTE: REPEATED ERP LOAD BLOCK (AS PROVIDED)
-   - Logic unchanged
-   ============================================================ */
-
-TRUNCATE TABLE erp_cust_az12;
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.6/Uploads/CUST_AZ12.csv'
-INTO TABLE erp_cust_az12
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS
-(@CID, @BDATE, @GEN)
-SET
-    cid   = NULLIF(TRIM(@cid), ''),
-    bdate = NULLIF(TRIM(@bdate), ''),
-    gen   = NULLIF(TRIM(@gen), '');
 
 
 
