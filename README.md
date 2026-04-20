@@ -1,6 +1,4 @@
 # Sql-data-warehouse-project
-building a modern data warehouse with SQL , including ETL, data modelling and analytics
-
 
 Developed an end-to-end SQL-based data pipeline to integrate, clean, and transform manufacturing and supply chain data from CRM and ERP sources into an analytics-ready data warehouse.
 
