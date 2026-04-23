@@ -1,6 +1,6 @@
 # Sql-data-warehouse-project
 
-Developed an end-to-end SQL-based data pipeline to integrate, clean, and transform manufacturing and supply chain data from CRM and ERP sources into an analytics-ready data warehouse.
+Developed an end-to-end SQL-based data pipeline to integrate, clean, and transform Product, Sales & Customer data from CRM and ERP sources into an analytics-ready data warehouse.
 
 -Designed a Bronze → Silver → Gold architecture for scalable data processing and traceability
 
